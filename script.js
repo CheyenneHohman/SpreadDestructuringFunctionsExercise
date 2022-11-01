@@ -9,7 +9,7 @@ function seeDinos(a, ...b){
     console.log(a);
     console.log(b);
 }
-seeDinos(`Velociraptors`, `Tyrannosaurus Rex`, `Dilophosaurus`);
+seeDinos(...jPDinos);
 
 
 //2
